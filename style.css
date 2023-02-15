@@ -4,6 +4,9 @@
 body {
   
 }
+.tituloPrincipal{
+    padding-left: 30px;
+}
 .principal{
     background-color: #CCCCCC; 
     padding: 20px;
@@ -11,7 +14,7 @@ body {
 #banner{
     width: 100%;
 }
-h1{
+.tituloCentralizado{
     text-align: center;
 }
 p {
@@ -27,9 +30,6 @@ em strong {
 .diferencial{
     background-color: white;
     padding: 30px;
-}
-h2{
-    text-align: center;
 }
 ul{
     display: inline-block;
