@@ -1,0 +1,45 @@
+/* Explicacion de hexadecimal */
+/* 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. el 0 es de mayor intensidad perdiendo color (negro) y hasta F gano color o menos oscuro (blanco) */
+/* - - - - - - */ /* r r g g b b */ /* red-green-blue */
+body {
+  
+}
+.tituloPrincipal{
+    padding-left: 30px;
+}
+.principal{
+    background-color: #CCCCCC; 
+    padding: 20px;
+}
+#banner{
+    width: 100%;
+}
+.tituloCentralizado{
+    text-align: center;
+}
+p {
+    text-align: center;
+    background-color: #CCCCCC;
+}
+#mision{
+    font-size: 20px;
+}
+em strong {
+    color: red;
+}
+.diferencial{
+    background-color: white;
+    padding: 30px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.items{
+    font-style: italic;
+}
+.imagenDiferenciales{
+    width: 50%;
+}

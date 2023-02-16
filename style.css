@@ -1,45 +1,76 @@
-/* Explicacion de hexadecimal */
-/* 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. el 0 es de mayor intensidad perdiendo color (negro) y hasta F gano color o menos oscuro (blanco) */
-/* - - - - - - */ /* r r g g b b */ /* red-green-blue */
-body {
-  
-}
-.tituloPrincipal{
-    padding-left: 30px;
-}
-.principal{
-    background-color: #CCCCCC; 
-    padding: 20px;
-}
-#banner{
-    width: 100%;
-}
-.tituloCentralizado{
-    text-align: center;
-}
-p {
-    text-align: center;
+header{
     background-color: #CCCCCC;
+    padding: 20px 0;
 }
-#mision{
-    font-size: 20px;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
-em strong {
-    color: red;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
-.diferencial{
-    background-color: white;
-    padding: 30px;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
-ul{
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.items{
-    font-style: italic;
+.productos li:hover{
+    border-color: #c78c19;
 }
-.imagenDiferenciales{
-    width: 50%;
+.productos li:active{
+    border-color: #c78c19;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 33px;
+}
+.productoDescripcion{
+    font-size: 18px;
+}
+.productoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-image: url(recursos/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: white;
+    font-size: 16px;
+    margin: 20px;
 }
