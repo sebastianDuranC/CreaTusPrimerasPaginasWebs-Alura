@@ -1,5 +1,5 @@
 header{
-    background-color: #BBBBBB;
+    background-color: #CCCCCC;
     padding: 20px 0;
 }
 .caja{
@@ -63,4 +63,14 @@ nav a:hover{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-image: url(recursos/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: white;
+    font-size: 16px;
+    margin: 20px;
 }
