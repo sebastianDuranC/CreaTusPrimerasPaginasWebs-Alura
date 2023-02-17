@@ -24,14 +24,41 @@
     <main>
         <form action="">
             <label for="nombreApellido">Nombre y Apellido</label>
-            <input type="text" id="nombreApellido">
+            <input type="text" id="nombreApellido" class="inputPadron">
 
             <label for="correoElectronico">Correo Electronico</label>
-            <input type="email" id="correoElectronico">
+            <input type="email" id="correoElectronico" class="inputPadron">
 
             <label for="telefono">Telefono</label>
-            <input type="text" id="telefono">
-            
+            <input type="text" id="telefono" class="inputPadron">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="70" rows="10"></textarea>
+
+            <div>
+                <p>¿Como le gustaría que le contactemos?</p>
+
+                <label for="radioEmail"><input name="contacto" type="radio" id="radioEmail" value="email">Email</label>
+
+                <label for="radioTelefono"><input name="contacto" type="radio" id="radioTelefono"
+                        value="telefono">Telefono</label>
+
+                <label for="radioWhatsapp"><input name="contacto" type="radio" id="radioWhatsapp"
+                        value="whatsapp">Whatsapp</label>
+            </div>
+
+            <div>
+                <p>En cual horario prefiere ser atendido</p>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox">Le gustaria recibir recibir novedades de la Barbería Alura
+            </label>
             <input type="submit" value="Enviar formulario">
         </form>
     </main>
@@ -39,6 +66,6 @@
         <img src="recursos/logo-blanco.png" alt="imagen de pie de pagina">
         <p class="copyright">&copy Copyright Barbería Alura - 2020</p>
     </footer>
-</body> 
+</body>
 
 </html>
