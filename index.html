@@ -4,43 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Barbería Alura</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
-        <h1 class="tituloPrincipal">Barbería Alura</h1>
+        <div class="caja">
+            <h1><img src="recursos/logo.png" alt="Logo de Barbería Alura"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img src="recursos/banner.jpg" alt="baner de Barbería Alura" id="banner">
-    <div class="principal">
-        <h2 class="tituloCentralizado">Sobre la Barberia Alura</h2>
-        <p>
-            Ubicado en el corazon de la ciudad, la <strong>Barbería Alura</strong> trae al mercado lo que hay de mejor
-            para
-            su cabello y
-            barba. Fundada en 2020, la Barbería Alura ya es destaque en la cuidad y conquista nuevos clientes
-            diariamente.
-        </p>
-        <p id="mision">
-            <em>Nuestra mision es <strong>"Proporcionar autoestima y calidad ed vida a nuestros clientes"</strong>.</em>
-        </p>
-        <p>
-            Ofrecemos profesionales experimentados que estan constantemente observando los cambios y movimiento en el
-            mundo
-            de la moda, para asi ofrecer a nuestros clientes las ultimas tendencias. El atendimiento posee un patrón de
-            excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
-        </p>
-    </div>
-    <div class="diferencial">
-        <h3 class="tituloCentralizado">Diferenciales</h3>
-        <ul>
-            <li class="items">Atencion perzonalizadas a los clientes</li>
-            <li class="items">Espacio diferenciado</li>
-            <li class="items">Localización</li>
-            <li class="items">Profesionales calificados</li>
-        </ul>
-        <img src="recursos/diferenciales.jpg" alt="imagen de diferenciales" class="imagenDiferenciales">
-    </div>
+
+    <img src="recursos/banner.jpg" alt="baner de Barbería Alura" class="banner">
+
+    <main>
+
+        <section class="principal">
+            <h2 class="tituloPrincipal">Sobre la Barberia Alura</h2>
+            <img class="utensilios" src="recursos/utensilios.jpg" alt="Utensilios de un barbero">
+            <p>
+                Ubicado en el corazon de la ciudad, la 
+                <strong>
+                    Barbería Alura
+                </strong> 
+                trae al mercado lo que hay de mejor parasu cabello y barba. Fundada en 2020, 
+                la Barbería Alura ya es destaque en la cuidad y conquista nuevos clientes
+                diariamente.
+            </p>
+            <p id="mision">
+                <em>Nuestra mision es 
+                    <strong>
+                        "Proporcionar autoestima y calidad ed vida a nuestros clientes"
+                    </strong>
+                </em>
+            </p>
+            <p>
+                Ofrecemos profesionales experimentados que estan constantemente observando los cambios y movimiento en
+                el mundo de la moda, para asi ofrecer a nuestros clientes las ultimas tendencias.
+                El atendimiento posee un patrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
+            </p>
+        </section>
+
+        <section class="diferencial">
+            <h3 class="tituloPrincipal">Diferenciales</h3>
+            <ul>
+                <li class="items">Atencion perzonalizadas a los clientes</li>
+                <li class="items">Espacio diferenciado</li>
+                <li class="items">Localización</li>
+                <li class="items">Profesionales calificados</li>
+            </ul>
+            <img src="recursos/diferenciales.jpg" alt="imagen de diferenciales" class="imagenDiferenciales">
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="recursos/logo-blanco.png" alt="imagen de pie de pagina">
+        <p class="copyright">&copy Copyright Barbería Alura - 2020</p>
+    </footer>
 </body>
 
 </html>
