@@ -77,10 +77,6 @@ footer{
     font-size: 16px;
     margin: 20px;
 }
-main{
-    width: 940px;
-    margin: 0 auto;
-}
 form{
     margin: 40px 0;
 }
@@ -132,6 +128,12 @@ table td, table th{
 .banner{
     width: 100%;
 }
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
 .utensilios{
     width: 120px;
     float: left;
@@ -154,10 +156,37 @@ table td, table th{
 }
 .mapa{
     padding: 3em 0;
+    background:linear-gradient(white, #888888);
 }
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.diferencial{
+    padding: 3em 0;
+    background-color: #888888;
+}
+.contenidoDiferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+.items:first-child{
+    font-weight: bold;
+}
+.items:before{
+    content:"⭐";
 }
 .imagenDiferenciales{
     width: 60%;
