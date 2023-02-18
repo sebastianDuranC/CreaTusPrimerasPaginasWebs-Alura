@@ -180,7 +180,8 @@ table td, table th{
     vertical-align: top;
 }
 .items{
-    line-height: 1.5;
+    line-height: 1.6;
+    margin: 0 15px 0 0 ;
 }
 .items:first-child{
     font-weight: bold;
