@@ -200,3 +200,18 @@ table td, table th{
     width: 650px;
     margin: 1em auto;
 }
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapaContenido, .contenidoDiferenciales, .video{
+        width: auto;
+    }
+    .listaDiferenciales, .imagenDiferenciales{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
